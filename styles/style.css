@@ -1,0 +1,174 @@
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  background-color: #f8f9fa;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #28a745;
+  text-decoration: none;
+}
+a:hover {
+  color: #1e7e34;
+}
+
+header {
+  background-color: #28a745;
+  color: #f8f9fa;
+}
+header nav a {
+  font-weight: bold;
+  color: #ffffff;
+}
+header nav a:hover {
+  color: #34ce57;
+}
+header nav .navbar-toggler {
+  border-color: #ffffff;
+}
+header nav .navbar-toggler .navbar-toggler-icon {
+  background-color: #ffffff;
+}
+
+#introducao {
+  padding: 5rem 0;
+  text-align: center;
+  background-color: #28a745;
+  color: #ffffff;
+}
+#introducao h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+#introducao p {
+  font-size: 1.25rem;
+}
+#introducao img {
+  margin-top: 2rem;
+  max-width: 40%;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#tipos {
+  padding: 5rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+#tipos h2 {
+  text-align: center;
+  color: #28a745;
+  margin-bottom: 2rem;
+}
+#tipos .card {
+  border: 2px solid #28a745;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#tipos .card img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+#tipos .card:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out;
+}
+#tipos .card .card-body {
+  text-align: center;
+}
+#tipos .card .card-body h5 {
+  color: #28a745;
+  font-weight: bold;
+}
+#tipos .card .card-body p {
+  font-size: 0.9rem;
+}
+
+#beneficios {
+  padding: 3rem 0;
+  background-color: #f8f9fa;
+}
+#beneficios h2 {
+  text-align: center;
+  color: #28a745;
+  margin-bottom: 2rem;
+}
+#beneficios .list-group li {
+  font-size: 1.1rem;
+  padding: 1rem;
+  border: 1px solid #28a745;
+  margin-bottom: 0.5rem;
+}
+#beneficios .list-group li:nth-child(odd) {
+  background-color: #afecbd;
+}
+#beneficios .list-group li:nth-child(even) {
+  background-color: #86e29b;
+}
+
+#carrossel {
+  padding: 5rem 0;
+}
+#carrossel h2 {
+  text-align: center;
+  color: #28a745;
+  margin-bottom: 2rem;
+}
+#carrossel .carousel .carousel-item img {
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#carrossel .carousel .carousel-control-prev-icon,
+#carrossel .carousel .carousel-control-next-icon {
+  background-color: #28a745;
+}
+
+#contato {
+  padding: 5rem 0;
+  background-color: #28a745;
+  color: #ffffff;
+  text-align: center;
+}
+#contato button {
+  background-color: #ffffff;
+  color: #28a745;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+}
+#contato button:hover {
+  background-color: white;
+  color: #1e7e34;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #343a40;
+  color: #f8f9fa;
+  height: 80px;
+}
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  #introducao h1 {
+    font-size: 3rem;
+  }
+  #tipos .card {
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  footer {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=style.css.map */
